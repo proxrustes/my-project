@@ -40,6 +40,10 @@ hr {
   margin-top: 30px;
   gap: 20px;
 }
+.results .result-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  scale: 1.01;
+}
 .results .result-card {
   background-color: #fff;
   border-radius: 5px;
@@ -48,6 +52,8 @@ hr {
   flex: 1 1 calc(33.333% - 20px);
   display: flex;
   flex-direction: column;
+  transition: all;
+  transition-duration: 300ms;
 }
 .results .result-card img {
   width: 100%;
