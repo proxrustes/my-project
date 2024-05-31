@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+hr {
+  margin-top: 5px;
+}
+
+.search-bar {
+  margin-bottom: 40px;
+  text-align: left;
+}
+.search-bar h4 {
+  margin-bottom: 10px;
+}
+.search-bar input {
+  width: 40%;
+  padding: 10px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 20px;
+}
+.results .result-card {
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 20px);
+  display: flex;
+  flex-direction: column;
+}
+.results .result-card img {
+  width: 100%;
+  height: 217px;
+  object-fit: cover;
+}
+.results .result-card .card-content {
+  padding: 15px;
+}
+.results .result-card .card-content .date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+.results .result-card .card-content .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.results .result-card .card-content p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.results .result-card .card-content .read-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.input-icons i {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+.icon {
+  padding: 10px;
+  color: green;
+  min-width: 50px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=search-page.css.map */
