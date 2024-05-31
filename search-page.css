@@ -67,6 +67,11 @@ hr {
   height: 40px;
   font-weight: bold;
   margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
 }
 .results .result-card .card-content p {
   font-size: 14px;
